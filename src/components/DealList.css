@@ -1,0 +1,101 @@
+.deal-container {
+    width: 70%;
+    margin: 20px auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.deal-container h2 {
+    text-align: left;
+    font-weight: 500;
+    /* margin-left: -40px; */
+}
+
+.deal-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.deal-card {
+    width: 32%;
+    height: auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #eeeeee;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(192, 191, 191, 0.1);
+    box-sizing: border-box;
+}
+
+.deal-card img {
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+}
+.tag{
+    display: flex;
+}
+.tag p{
+    margin-right: 10px;
+    font-size: 11px;
+    color: rgb(2, 69, 226);
+    background-color: rgb(218, 237, 255);
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 45px;
+}
+/* .deal-details {
+    padding: 10px;
+} */
+
+
+.deal-info h4{
+    font-size: 15px;
+    color: rgba(64, 63, 63, 0.785);
+
+
+}
+
+.deal-info p{
+    font-size: 13px;
+    color: rgba(64, 63, 63, 0.785);
+    text-align: left;
+
+}
+.price-info{
+    display: flex;
+    margin-top: -15px;
+
+}
+
+.discounted-price{
+    font-size: 16px;
+    color: rgba(64, 63, 63, 0.785);
+}
+.original-price{
+    margin-top:22px ;
+    font-size: 11px;
+    margin-left: 12px;
+    color: rgba(160, 159, 159, 0.785);
+
+}
+.price-info span{
+    font-size: 11px;
+    margin-top: 22px;
+    margin-left: 12px;
+    color: rgb(254, 67, 67);
+}
+.viewbutton{
+    background-color: rgb(0, 128, 255);
+    width: 80%;
+    height: 40px;
+    margin-top: 20px;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 10px;
+    font-size: 13px;
+    cursor: pointer;
+}

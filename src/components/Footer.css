@@ -1,0 +1,32 @@
+.footer {
+    background-color: #1c2530;
+    height: 400px;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-column {
+    width: 15%;
+    text-align: left;
+}
+
+.footer h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 400;
+
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li {
+    color: rgb(224, 224, 224);
+    margin-bottom: 25px;
+    font-weight: 300;
+    font-size: 13px;
+}

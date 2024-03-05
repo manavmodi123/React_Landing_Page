@@ -1,0 +1,44 @@
+.header {
+  background-color: #1c2530;
+    color: white;
+    display: flex;
+    justify-content: center; /* Center align horizontally */
+    align-items: center; /* Center align vertically */
+    padding: 10px 20px;
+  }
+  
+  .search-bar {
+    position: relative; /* Set position to relative */
+    display: flex;
+    align-items: center;
+    margin-right: 20px; /* Add some space between search bar and titles */
+  }
+  
+  .search-bar input {
+    padding: 5px 10px; /* Adjust padding */
+    border: none;
+    border-radius: 5px;
+    padding-left: 30px; /* Set padding-left to accommodate icon */
+  }
+  
+  .search-bar button {
+    position: absolute; /* Set position to absolute */
+    left: 5px; /* Adjust the position of the icon */
+    padding: 5px 10px;
+    background-color: transparent;
+    border: none;
+    color: black; /* Set icon color to black */
+    cursor: pointer;
+  }
+  
+  .titles {
+    display: flex;
+    align-items: center;
+    margin: 0 60px;
+  }
+  
+  .title {
+    margin-right: 40px;
+    font-size: 13px;
+  }
+  

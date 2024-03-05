@@ -1,0 +1,151 @@
+.second-header {
+    background-color: white;
+    width: 65%;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items to the start of the container */
+    margin: 0 auto; /* Center the header horizontally */
+    flex-direction: column; /* Arrange flex items vertically */
+  }
+  
+  .second-header p {
+    margin: 20px; /* Add margin to the top of the paragraph */
+    font-size: 40px; /* Adjust font size */
+    letter-spacing: 2px;
+  }
+  
+  .update-info {
+    color: rgba(64, 63, 63, 0.785);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    position: relative; /* Position relative for pseudo-elements */
+  }
+  .update-info span{
+    font-size: 13px;
+    letter-spacing: 1.5px;
+  }
+  
+  .update-info::before,
+  .update-info::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 1px;
+    background-color: rgb(204, 196, 196);
+  }
+  
+  .update-info::before {
+    top: 0; /* Border above */
+  }
+  
+  .update-info::after {
+    bottom: 0; /* Border below */
+  }
+  
+  .check-mark {
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  check-mark i {
+    width: 25px;
+    height: 25px;/* Set the font size to match the size of the "i" icon */
+    color: rgba(64, 63, 63, 0.785);
+    /* Set the color of the checkmark icon */
+  }
+  .advertising {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .advertising-icon {
+    background-color: rgba(64, 63, 63, 0.785);
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .advertising-icon i {
+    color: white;
+  }
+  
+  .advertising span {
+    color: rgba(64, 63, 63, 0.785);
+    letter-spacing: 1.5px;
+    font-size: 12px;
+  }
+  .relevant {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  }
+  
+  .relevant span {
+    color: rgba(64, 63, 63, 0.785);
+    letter-spacing: 1.5px;
+    font-size: 12px;
+  }
+  
+  .relevant i {
+    color: rgba(64, 63, 63, 0.785);
+    font-size: 12px;
+    margin-left: 5px; /* Add space between the text and the icon */
+  }
+  .titles {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .titles ul {
+    list-style: none; /* Remove default list style */
+    padding: 0; /* Remove default padding */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .titles li {
+    font-size: 14px; /* Adjust font size */
+    color: rgba(64, 63, 63, 0.785);
+    margin-left: 70px; /* Apply margin-left to all li elements */
+  }
+  
+  .titles li:first-child {
+    margin-left: 0; /* Remove margin-left for the first li element */
+  }
+  .product-category {
+    margin-left: 20px;
+  }
+  
+  .product-category ul {
+    list-style: none; /* Remove default list style */
+    padding: 0; /* Remove default padding */
+    display: flex; /* Use flexbox */
+    flex-wrap: wrap; /* Allow items to wrap to the next line if needed */
+  }
+  
+  .product-category li {
+    
+    font-size: 14px; /* Adjust font size */
+    color: rgba(64, 63, 63, 0.785); /* Set text color */
+    margin-right: 10px; /* Add space between list items */
+  }
+  
+  .product-category li i {
+    margin-left: 12px; /* Add space between text and icon */
+    color: rgba(64, 63, 63, 0.896); /* Set icon color */
+  }
+  
